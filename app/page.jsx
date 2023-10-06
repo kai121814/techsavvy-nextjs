@@ -1,4 +1,5 @@
 import Banner from "./banner/page";
+import Benefits from "./benefits/page";
 import Contacts from "./contacts/page";
 import Lessons from "./lessons/page";
 import Navbar from "./navbar/page";
@@ -13,6 +14,7 @@ export default function LandingPage() {
         <Navbar />
         <Banner />
         <VMO />
+        <Benefits />
         <Packages />
         <Lessons />
         <Testimonies />
